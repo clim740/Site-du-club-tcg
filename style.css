@@ -1,9 +1,10 @@
 .banner{
     display:block;
-    width:100%;
-    max-width:900px; /* largeur maximale */
+    width:90%;
+    max-width:850px;
     height:auto;
-    margin:0 auto 25px;
+    margin:0 auto 30px;
     border-radius:20px;
-    box-shadow:0 0 25px rgba(0,0,0,0.4);
+    border:3px solid #8b5cf6;
+    box-shadow:0 0 30px #7c3aed;
 }
