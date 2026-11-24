@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marshmallow Fanatics Club</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:linear-gradient(135deg,#0066ff,#7c3aed);
+    text-align:center;
+    padding:50px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+nav{
+    background:#111827;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:18px 25px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background:#2563eb;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    color:#60a5fa;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #3b82f6;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#2563eb;
+}
+
+th,td{
+    border:1px solid #444;
+    padding:15px;
+    text-align:center;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:30px;
+}
+
+footer a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎮 Marshmallow Fanatics Club 🎲</h1>
+
+<p>
+Club TCG • Beyblade • Jeux de Rôle • Open Front
+</p>
+
+<a class="btn"
+href="https://www.youtube.com/@MarshmallowFanatics"
+target="_blank">
+▶ Notre chaîne YouTube
+</a>
+
+</header>
+
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#activites">Activités</a>
+<a href="#planning">Planning</a>
+<a href="#youtube">YouTube</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+
+<h2>Bienvenue !</h2>
+
+<p>
+Bienvenue au Marshmallow Fanatics Club !
+
+Notre club accueille tous les passionnés de jeux de cartes à collectionner,
+Beyblade X, jeux de rôle et jeux de société.
+
+Que tu sois débutant ou expert, viens jouer avec nous dans une ambiance conviviale !
+</p>
+
+</section>
+
+<section id="activites">
+
+<h2>Nos Activités</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🃏 TCG</h3>
+<p>
+Pokémon, Yu-Gi-Oh!, Magic, One Piece, Lorcana...
+</p>
+</div>
+
+<div class="card">
+<h3>🌀 Beyblade X</h3>
+<p>
+Entraînements, combats libres et tournois.
+</p>
+</div>
+
+<div class="card">
+<h3>🎲 Jeux de rôle</h3>
+<p>
+Donjons & Dragons, Pathfinder, Call of Cthulhu...
+</p>
+</div>
+
+<div class="card">
+<h3>🎮 Open Front</h3>
+<p>
+Jeux de société, jeux vidéo et découvertes.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="planning">
+
+<h2>📅 Horaires du Club</h2>
+
+<table>
+
+<tr>
+<th>Jour</th>
+<th>Horaire</th>
+<th>Activités</th>
+</tr>
+
+<tr>
+<td>Mardi</td>
+<td>12h10 - 12h55</td>
+<td>TCG • Beyblade • Open Play</td>
+</tr>
+
+<tr>
+<td>Mercredi</td>
+<td>13h00 - 14h30</td>
+<td>Jeux de rôle • Tournois • Open Play</td>
+</tr>
+
+<tr>
+<td>Vendredi</td>
+<td>12h10 - 12h55</td>
+<td>TCG • Beyblade • Open front</td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="youtube">
+
+<h2>📺 Notre Chaîne YouTube</h2>
+
+<p>
+Retrouve nos vidéos, nos tournois, nos combats Beyblade, nos parties de jeux de rôle
+et toute l'actualité du club !
+</p>
+
+<a class="btn"
+href="https://www.youtube.com/@MarshmallowFanatics"
+target="_blank">
+Voir la chaîne YouTube
+</a>
+
+</section>
+
+<section id="contact">
+
+<h2>📧 Contact</h2>
+
+<p>
+Pour toute question ou pour rejoindre le club :
+</p>
+
+<p>
+📧 <strong>d.devonn@outlook.com</strong>
+</p>
+
+<p>
+Nous répondons à toutes les demandes avec plaisir !
+</p>
+
+
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Marshmallow Fanatics Club
+</p>
+
+<p>
+<a href="https://www.youtube.com/@MarshmallowFanatics" target="_blank">
+Notre chaîne YouTube
+</a>
+</p>
+
+</footer>
+
+</body>
+</html>
